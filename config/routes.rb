@@ -15,4 +15,5 @@ Rails.application.routes.draw do
     end
     resources :areas, except: %i[new create]
   end
+  root "home#index"
 end
