@@ -53,6 +53,7 @@ group :test do
   gem "chromedriver-helper"
   gem "shoulda-matchers", "~> 3.0", require: false
   gem "database_cleaner", "~> 1.5"
+  gem "factory_bot", "~> 4.8", ">= 4.8.2"
 end
 
 gem "tzinfo-data", platforms: %i[mingw mswin x64_mingw jruby]

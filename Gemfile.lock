@@ -140,6 +140,8 @@ GEM
       dry-logic (~> 1.0, >= 1.0.2)
     erubi (1.8.0)
     execjs (2.7.0)
+    factory_bot (4.11.1)
+      activesupport (>= 3.0.0)
     faker (2.2.2)
       i18n (~> 1.6.0)
     ffi (1.11.1)
@@ -371,6 +373,7 @@ DEPENDENCIES
   country_select (~> 4.0)
   database_cleaner (~> 1.5)
   devise
+  factory_bot (~> 4.8, >= 4.8.2)
   faker
   figaro
   font-awesome-rails (~> 4.7, >= 4.7.0.5)
